@@ -1,5 +1,11 @@
+logs/
+old/
 .idea/
 .logs/
+
+*.iml
+*.yml
+*.yaml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -6,7 +6,7 @@ import os
 
 def setup_logging():
     logging.basicConfig(level=logging.INFO)
-    log_format = "[%(asctime)s \033[92m%(levelname)s]\033[0m: %(message)s"
+    log_format = "\033[90m%(asctime)s\033[0m \033[94m%(levelname)-8s\033[0m %(message)s"
     date_format = '%Y-%m-%d %H:%M:%S'
     formatter = logging.Formatter(fmt=log_format, datefmt=date_format)
 
