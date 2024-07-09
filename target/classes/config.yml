@@ -1,0 +1,12 @@
+# Don't touch this item
+Version: 1.0.0-SNAPSHOT
+ConfigVersion: 1.0.0
+
+BotSetting:
+  BotStatus:
+    #  listening, playing, watching
+    Activate: playing
+    Name: /help
+
+  # Status: online, idle, do_not_disturb, offline
+  OnlineStatus: online
